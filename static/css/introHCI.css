@@ -48,11 +48,6 @@ img {
      height: 250px;
  }
  
- .container { 
-     margin-left: auto;
-     margin-right: auto;
-     max-width: 1024px;
- }
 
  .projects {
      padding-top: 30px;
@@ -60,6 +55,7 @@ img {
      display: grid;
      grid-template-columns: 1fr 1fr 1fr;
      grid-template-rows: 1fr;
+     margin-left: 0px;
      
  }
 
