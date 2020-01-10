@@ -1,0 +1,154 @@
+html {
+    height: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: rgb(255, 255, 255);
+}
+
+header {
+    height: 118px;
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    font-size: 10px;
+}
+
+nav {
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 14px;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+ color: rgb(219, 98, 148);
+}
+
+nav a {
+    text-decoration: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+    
+}
+
+h1 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(175, 89, 115);
+    margin: auto;
+}
+
+h2 {
+    font-weight: normal;
+    text-align: center;
+    font-size: 25px;
+}
+
+h3 {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(94, 169, 219)
+}
+
+p {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+/* .box {
+    height: 500px;
+    width: 1000px;
+    background: white;
+} */
+
+img {
+    display: block;
+    margin: 0 auto;
+    height: 175px;
+}
+
+.intro img {
+    height: 480px;
+}
+
+.intro p {
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.menu img {
+    height: 200px;
+    width: 300px;
+}
+
+.container { 
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+}
+
+.headingnav {
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.address {
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.intro {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    background: white;
+    border: solid;
+    border-color: rgb(156, 156, 156);
+}
+
+.menuhead {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.menu {
+    padding-top: 50px;
+    padding-bottom: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    
+}
+
+.preorder {
+
+}
+
+.end {
+    padding-top: 125px;
+    padding-bottom: 50px;
+}
+
+.footer {
+    padding-top: 50px;
+    padding-top: 15px;
+    font-size: 10px;
+}
